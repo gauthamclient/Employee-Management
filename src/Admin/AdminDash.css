@@ -1,0 +1,57 @@
+.admin_dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .admin_sidebar {
+    background-color: #4CAF50;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+  }
+  
+  .admin_sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin_sidebar li {
+    padding: 10px 0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .admin_sidebar li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .admin_sidebar li:hover {
+    background-color: #43A047;
+  }
+  
+  .admin_content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 300px;
+    color: #333;
+  }
+
+.admin_content button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin_content button:hover {
+    background-color: #43A047;
+  }
+  
+  .sec_btns{
+    margin-top: 15px;
+  }

@@ -1,0 +1,96 @@
+.emp_dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.emp_info {
+  margin-bottom: 20px;
+}
+
+.clockin_button {
+  margin-bottom: 20px;
+}
+
+.clockin_button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff7f50; /* Orange color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff; /* Text color for button */
+}
+
+.clockin_button button:hover {
+  background-color: #ff6347; /* Darker shade for hover */
+}
+
+.emp_tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #76b11b; /* Theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff; /* Text color for buttons */
+}
+
+.tab_button:hover {
+  background-color: #5c8c15; /* Darker shade for hover */
+}
+
+.tab_content {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* leave form */
+.leave_form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.leave_form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.leave_form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.leave_form input[type="date"],
+.leave_form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.leave_form textarea {
+  resize: vertical;
+}
+
+.leave_form button {
+  background-color: #76b11b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.leave_form button:hover {
+  background-color: #5c8c15;
+}
